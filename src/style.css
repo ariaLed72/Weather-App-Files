@@ -149,3 +149,13 @@ h3 {
   text-shadow: 1px 3px 3px lightgoldenrodyellow;
   font-weight: bold;
 }
+
+#git-link {
+  color: white;
+  font-weight: bold;
+  position: relative;
+  top: 300px;
+  left: 40px;
+  text-shadow: 2px 5px 5px grey;
+  font-size: 20px;
+}
