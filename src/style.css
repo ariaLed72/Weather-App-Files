@@ -46,21 +46,16 @@ h3 {
   top: 22px;
   left: 15px;
   text-shadow: 2px 5px 5px lightgrey;
+  margin-bottom: -35px;
 }
 
 .mostly-cloudy {
   font-size: 18px;
   position: relative;
-  left: 350px;
+  left: 150px;
   top: -35px;
   text-shadow: 2px 5px 5px lightgrey;
-}
-
-#description {
-  position: relative;
-  top: 85px;
-  left: 20px;
-  color: rgb(249, 246, 246);
+  text-align: center;
 }
 
 .small-numbers {
@@ -124,6 +119,31 @@ h3 {
   text-shadow: 1px 3px 3px lightgrey;
 }
 
+#weather-icon {
+  position: relative;
+  top: 15px;
+  left: 380px;
+  margin-bottom: -200px;
+}
+
+#description {
+  position: relative;
+  top: 175px;
+  left: 30px;
+  color: rgb(249, 246, 246);
+  text-transform: capitalize;
+}
+
+#celsius-conversion {
+  text-decoration: none;
+  color: white;
+}
+
+#fahrenheit-conversion {
+  text-decoration: none;
+  color: white;
+}
+
 #position-button {
   display: block;
   margin: 0 auto;
@@ -145,8 +165,8 @@ h3 {
   padding: 10px 20px;
   position: relative;
   top: -240px;
-  color: black;
-  text-shadow: 1px 3px 3px lightgoldenrodyellow;
+  color: rgb(207, 207, 207);
+  text-shadow: 1px 3px 3px rgb(0, 0, 0);
   font-weight: bold;
 }
 
